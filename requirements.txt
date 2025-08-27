@@ -1,0 +1,17 @@
+# --- Core UI & utilities ---
+streamlit>=1.36.0
+requests>=2.32.3
+pandas>=2.2.2
+numpy>=1.26.4
+scikit-learn>=1.5.1
+
+# --- RAG: lightweight embeddings (ONNX) + vector store ---
+fastembed>=0.3.5
+onnxruntime>=1.18.0
+faiss-cpu>=1.8.0
+
+# --- Optional: tiny NLI judge (auto-falls back if not installed) ---
+# transformers>=4.43.0
+# tokenizers>=0.19.1
+# torch>=2.2.2
+# sentencepiece>=0.2.0
